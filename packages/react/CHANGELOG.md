@@ -1,5 +1,18 @@
 # @emotion/react
 
+## 11.0.0-next.14
+
+### Patch Changes
+
+- [`58dc08a6`](https://github.com/emotion-js/emotion/commit/58dc08a6a013fb5cfa10bb85e06e53a8ff7eeb51) [#1837](https://github.com/emotion-js/emotion/pull/1837) Thanks [@arcanis](https://github.com/arcanis)! - Fixed TS compatibility under [PnP](https://classic.yarnpkg.com/en/docs/pnp/) environments by making `@types/react` an optional peer dependency.
+
+* [`c7ae4755`](https://github.com/emotion-js/emotion/commit/c7ae475517bae25787c91f25bbcfe3f46794a479) [#1762](https://github.com/emotion-js/emotion/pull/1762) Thanks [@Andarist](https://github.com/Andarist)! - Changed the interface to which support for `css` prop is being added. It's now `React.Attributes` instead of `React.DOMAttributes<T>` and `JSX.IntrinsicAttributes`. This change is really minor and shouldn't affect any consuming code.
+
+* Updated dependencies [[`4d3b60d0`](https://github.com/emotion-js/emotion/commit/4d3b60d0d448a61d762ee150e6cb7a2c995ccc2f), [`58dc08a6`](https://github.com/emotion-js/emotion/commit/58dc08a6a013fb5cfa10bb85e06e53a8ff7eeb51), [`6d32d82b`](https://github.com/emotion-js/emotion/commit/6d32d82beb45b18e5f18a37932b862ad19b17044)]:
+  - @emotion/styled@11.0.0-next.14
+  - @emotion/css@11.0.0-next.14
+  - @emotion/server@11.0.0-next.14
+
 ## 11.0.0-next.13
 
 ### Major Changes
